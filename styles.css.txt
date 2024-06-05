@@ -1,0 +1,156 @@
+﻿body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1E3C72, #2A5298);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.main-content {
+  width: 80%;
+  max-width: 600px;
+  color: white;
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+
+.language-selector {
+  width: 60px;
+  height: 30px;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+
+
+h1 {
+  color: #1e90ff;
+  font-size: 2em;
+}
+
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.club-logo {
+  width: 80px; /* 20% menor do que os 100px anteriores */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.form {
+  text-align: left;
+}
+
+
+.form label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #ddd;
+}
+
+
+.form input, .form select, .form button {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+
+.form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+
+.form button:hover {
+  background-color: #218838;
+}
+
+
+.result, .result p {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #001f3f;
+  color: #ddd;
+}
+
+
+.history {
+  margin-top: 30px;
+}
+
+
+.history button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #dc3545;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+
+.history button:hover {
+  background-color: #c82333;
+}
+
+
+.history table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+
+.history th, .history td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+
+.history th {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+
+.history tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+.history tr:hover {
+  background-color: #ddd;
+}
